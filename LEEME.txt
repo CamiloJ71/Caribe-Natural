@@ -1,0 +1,23 @@
+CARIBE NATURAL AI — SEMANA 3 — UTB
+
+1. Abre index.html en Chrome/Edge. Requiere internet solo para descargar el modelo de IA semántica.
+2. Por defecto se utiliza recuperación estadística TF-IDF. No equivale a un modelo generativo.
+3. Haz clic en «Activar IA semántica real». Se carga Xenova/paraphrase-multilingual-MiniLM-L12-v2 mediante Transformers.js (requiere conexión a CDN y Hugging Face).
+4. Escribe consultas libres o usa los botones. Precios, políticas y productos son datos sintéticos de prueba.
+5. Para cargar un catálogo autorizado utiliza el CSV con columnas: id,categoria,nombre,tags,precio,presentacion,beneficios,modo_uso.
+6. Descarga la bitácora: no almacena texto de consultas ni datos personales.
+7. Este prototipo NO se conecta a WhatsApp, no crea pedidos, no contacta realmente a una asesora ni confirma inventario.
+
+En el informe Word se documentan pruebas realmente observadas en el modo TF-IDF. La carga del modelo semántico externo requiere validación en un navegador conectado a internet.
+
+CONTENIDO DE LA ENTREGA
+- Informe_Semana_3_Pruebas_y_Mejoras.docx: informe académico con resultados y evidencias.
+- Matriz_Pruebas_Semana_3.xlsx: 12 comprobaciones evaluadas y resumen automático.
+- index.html: prototipo mejorado.
+- datos_caribe_natural_sinteticos.csv: base de prueba.
+- evidencias/: capturas de pantalla y resultados de pruebas automatizadas.
+
+Para activar el modelo semántico, se recomienda servir esta carpeta en un servidor local o hosting estático.
+Por ejemplo, con Python: python -m http.server 8000
+Abrir después http://localhost:8000/ y pulsar Activar IA semántica.
+Recuerda: la validación externa del modelo está pendiente; no afirmes haber probado esa parte.
